@@ -19,8 +19,7 @@ ROP 3: `/problems/ROP_3_7f3312fe43c46d26`
 
 ROP 4: `/problems/ROP_4_887f7f28b1f64d7e`
 
-[Introduction to ROP](http://codearcana.com/posts/2013/05/28/introduction-to-return-oriented-programming-rop.html)
-- подробный разбор ROP-заданий с picoCTF
+[Introduction to ROP](http://codearcana.com/posts/2013/05/28/introduction-to-return-oriented-programming-rop.html) - подробный разбор ROP-заданий с picoCTF
 
 
 Задача
@@ -38,11 +37,8 @@ ROP 4: `/problems/ROP_4_887f7f28b1f64d7e`
 
 [А. В. Столяров. Программирование на языке ассемблера NASM для ОС Unix](http://www.stolyarov.info/books/pdf/nasm_unix.pdf)
 
-Системные вызовы Linux:
-http://syscalls.kernelgrok.com/
+[Системные вызовы Linux](http://syscalls.kernelgrok.com/)
 
-Курс Хакердома по реверсу:
-http://reverse.binchewer.org/2013/
+[Курс Хакердома по реверсу](http://reverse.binchewer.org/2013/)
 
-Бродкасты Егора Федосеева:
-http://www.twitch.tv/binchewer/profile/pastBroadcasts
+[Бродкасты Егора Федосеева](http://www.twitch.tv/binchewer/profile/pastBroadcasts)
