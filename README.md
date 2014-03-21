@@ -3,7 +3,9 @@
 
 Зарегистрируйтесь и залогиньтесь на picoCTF. Ваш логин-пароль к серверу указан на странице [Shell](https://picoctf.com/webshell).
 Изначально задачи overflow и ROP от вас скрыты в веб-интерфейсе, но они находятся в приведенных ниже директориях.
-Цель: прочесть содержимое файла key.
+Цель: прочесть флаг из файла key, сохранить его и сдать потом в веб-интерфейс picoCTF.
+
+Сначала решите задачи Overflow 1-3, затем переключитесь на ROP 1-3.
 
 Overflow 1: `/problems/stack_overflow_1_3948d17028101c40`
 
@@ -26,10 +28,11 @@ ROP 4: `/problems/ROP_4_887f7f28b1f64d7e`
 [Introduction to ROP](http://codearcana.com/posts/2013/05/28/introduction-to-return-oriented-programming-rop.html) - подробный разбор ROP-заданий с picoCTF
 
 
-Задача
-------
+Сложная задача
+--------------
 
-[RuCTF Quals 2014: vuln 300](posts) - ELF 32-bit executable
+[RuCTF Quals 2014: vuln 300](posts) - ELF 32-bit executable. Представьте, что в текущей директории с этим скриптом лежит файл key,
+содержимое которого необходимо прочитать.
 
 
 Материалы
@@ -37,11 +40,15 @@ ROP 4: `/problems/ROP_4_887f7f28b1f64d7e`
 
 [Д. Юричев. Reverse Engineering для начинающих](http://yurichev.com/writings/RE_for_beginners-ru.pdf)
 
-[Материалы по ассемблеру на acm.mipt.ru](http://acm.mipt.ru/twiki/bin/view/Asm/WebHome)
-
 [А. В. Столяров. Программирование на языке ассемблера NASM для ОС Unix](http://www.stolyarov.info/books/pdf/nasm_unix.pdf)
 
-[Системные вызовы Linux](http://syscalls.kernelgrok.com/)
+[Материалы по ассемблеру на acm.mipt.ru](http://acm.mipt.ru/twiki/bin/view/Asm/WebHome)
+
+[Г. Курячий, К. Маслинский. Операционная система Linux](http://docs.altlinux.org/books/altlibrary-linuxintro2.pdf)
+
+[В. Е. Карпов, К. А. Коньков. Основы операционных систем](http://lib.mipt.ru/book/265926/Karpov-VE-Konkov-KA-Osnovy-operatsionnyh-sistem-Kurs-lektsii-Uchebnoe-posobie.djvu)
+
+[Таблица системных вызовов Linux](http://syscalls.kernelgrok.com/)
 
 [Курс Хакердома по реверсу](http://reverse.binchewer.org/2013/)
 
