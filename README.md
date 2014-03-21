@@ -23,21 +23,26 @@ ROP 4: `/problems/ROP_4_887f7f28b1f64d7e`
 - подробный разбор ROP-заданий с picoCTF
 
 
-Задачи
+Задача
 ------
+
 [RuCTF Quals 2014: vuln 300](posts) - ELF 32-bit executable
 
 
 Материалы
 ---------
 
+[Д. Юричев. Reverse Engineering для начинающих](http://yurichev.com/writings/RE_for_beginners-ru.pdf)
+
+[Материалы по ассемблеру на acm.mipt.ru](http://acm.mipt.ru/twiki/bin/view/Asm/WebHome)
+
+[А. В. Столяров. Программирование на языке ассемблера NASM для ОС Unix](http://www.stolyarov.info/books/pdf/nasm_unix.pdf)
+
+Системные вызовы Linux:
+http://syscalls.kernelgrok.com/
+
 Курс Хакердома по реверсу:
 http://reverse.binchewer.org/2013/
 
 Бродкасты Егора Федосеева:
 http://www.twitch.tv/binchewer/profile/pastBroadcasts
-
-[Д. Юричев. Reverse Engineering для начинающих](http://yurichev.com/writings/RE_for_beginners-ru.pdf)
-
-Системные вызовы Unix:
-http://syscalls.kernelgrok.com/
