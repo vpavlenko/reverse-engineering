@@ -42,6 +42,8 @@ ROP 4: `/problems/ROP_4_887f7f28b1f64d7e`
 
 [А. В. Столяров. Программирование на языке ассемблера NASM для ОС Unix](http://www.stolyarov.info/books/pdf/nasm_unix.pdf)
 
+[Р. Столмен и др. Отладка с помощью GDB](http://www.linux.org.ru/books/GNU/gdb/gdb-ru.pdf)
+
 [Материалы по ассемблеру на acm.mipt.ru](http://acm.mipt.ru/twiki/bin/view/Asm/WebHome)
 
 [Г. Курячий, К. Маслинский. Операционная система Linux](http://docs.altlinux.org/books/altlibrary-linuxintro2.pdf)
