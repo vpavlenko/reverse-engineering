@@ -1,6 +1,10 @@
 Таски с [picoCTF](https://picoctf.com/)
 ---------------------------------------
 
+Зарегистрируйтесь и залогиньтесь на picoCTF. Ваш логин-пароль к серверу указан на странице [Shell](https://picoctf.com/webshell).
+Изначально задачи overflow и ROP от вас скрыты в веб-интерфейсе, но они находятся в приведенных ниже директориях.
+Цель: прочесть содержимое файла key.
+
 Overflow 1: `/problems/stack_overflow_1_3948d17028101c40`
 
 Overflow 2: `/problems/stack_overflow_2_44e63640e033ff2b`
